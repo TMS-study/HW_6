@@ -1,0 +1,15 @@
+{
+  "name": "hw_6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hw_6.js",
+  "scripts": {
+    "ts-run": "npx ts-node hw_6.ts",
+    "js-run": " node hw_6.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
