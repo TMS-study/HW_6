@@ -67,16 +67,19 @@ let salaries = {
 };
 
 let sum = 0;
-let midlleSalary = 0;
-for ( key in salaries){
-    sum +=salaries[key];
-    midlleSalary = sum / 4;
+let employeeCounter = 0;
+
+for (const key in salaries) {
+  employeeCounter++;
+  sum += salaries[key];
 }
 
-salaries.midlleSalary = 524.75;
+salaries.mediana = sum / employeeCounter;
+
 console.log(salaries);
 
-// Переписать с помощью функции?
+
+// Переписать с помощью функции(решение с ограниченным вычислением медианы)
 
 let salaries = {
     andrey: 500,
